@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Digital Portfolio for Siddhant Goel">
+  <meta name="author" content="Siddhant Goel">
+  <title>Siddhant Goel</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/lightbox.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link id="css-preset" href="css/presets/preset1.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="images/LOGOIcon.png">
+</head><!--/head-->
+
+<body>
+
+  <!--.preloader-->
+  <div class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
+  <!--/.preloader-->
+
+  <header id="home">
+
+    <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active" style="background-image: url(images/slider/1.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Siddhant<span> Goel</span></h1>
+            <p class="animated fadeInRightBig">Computer Scientist, Software Engineer, Programmer</p>
+            <a href="#about-me">About Me</a>
+          </div>
+        </div>
+      </div>
+
+      <a id="tohash" href="#about-me"><i class="fa fa-angle-down"></i></a>
+
+    </div><!--/#home-slider-->
+  </header><!--/#home-->
+
+  <section id="about-me" class="parallax">
+    <div style="background-color:rgba(0,0,0,0.1)" class="main-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <h1><img class="img-responsive" src="images/LOGOIcon.png" alt="logo" height="73" width="73"></h1>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id=".navbar_collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="scroll"><a href="#home" data-toggle="collapse" data-target=".navbar-collapse.in">Home</a></li>
+            <li class="scroll"><a href="#about-me" data-toggle="collapse" data-target=".navbar-collapse.in">About Me</a></li>
+            <li class="scroll"><a href="#services" data-toggle="collapse" data-target=".navbar-collapse.in">Skills</a></li>
+            <li class="scroll"><a href="#resume" data-toggle="collapse" data-target=".navbar-collapse.in">Resume</a></li>
+            <li class="scroll"><a href="#contact" data-toggle="collapse" data-target=".navbar-collapse.in">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div><!--/#main-nav-->
+
+    <div class="container">
+      <div class="row">
+<!--        <div class="col-sm-6">-->
+          <div class="about-info wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+            <h2>About Me</h2>
+            <p>
+              A few of my favorite things are programming, designing software, music and soccer. While I am primarily a Software Engineer, I believe that without design, any software is inclomplete and that design is 50% of the software.
+              <br><br>
+              With ample experience as a Software Engineer, I have been programming since I was 13 years old. Starting with HTML and Visual Basic, I went on to learn C++ and MySQL by the time I got to college, and have since worked with several languages and frameworks. C++ still remains one of my favorites.
+              <br>
+              Two of my favorite fields in Software Engineering are Machine Learning/AI and Full-stack development, while I also enjoy working with Embedded Software, and UX Design.
+              <br><br>
+              Engineering doesn't come without design, and luckily, I have had great experience in the same. At my summer internship in 2017 at Little Black Book, Delhi, I worked as an iOS developer and designer. Under the guidance of my mentors, I learned a lot about working in the field and about good engineering and design principles. In summer of 2018, I intered at Pine Labs, where I created a test suite for a bank simulator in C# and C++, and then worked with the iOS team.
+              <br><br>I am currently in my third year of Computer Science at the University of Virginia, and intend to graduate in May of 2020. I am passionate about the future technology and making a difference in the world with it.
+            </p>
+          </div>
+      </div>
+    </div>
+  </section><!--/#about-me-->
+  <section id="services">
+    <div class="container">
+      <div class="heading wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+        <div class="row">
+          <div class="text-center col-sm-8 col-sm-offset-2">
+            <h2>Sample Work</h2>
+          </div>
+        </div>
+      </div>
+      <div class="text-center our-services">
+        <div class="row">
+          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="200ms">
+            <img class="img-responsive" src="images/Sample/Sample1.jpeg" alt = "">
+            <div class="service-info">
+              <h3>Custom Image Picker</h3>
+              <p>Designed at Little Black Book<br>iOS development using Swift</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <video width="81.7%" controls>
+              <source src="images/Sample/sample2.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <div class="service-info">
+              <h3>More Like This</h3>
+              <p>Suggested articles design<br>iOS development using Swift</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="400ms">
+            <img class="img-responsive" src="images/Sample/Sample3.png" alt = "">
+            <div class="service-info">
+              <h3>Aura Login Page</h3>
+              <p>Designed for Aura Trading Co.<br>iOS development using Swift</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section><!--/#services-->
+  <section id="resume">
+    <h2 class="centertext">Resume</h2>
+    <embed src="images/Resume.pdf" width=100% height="800px" type="application/pdf">
+  </section>
+  <section id="contact">
+    <div id="contact-us" class="parallax">
+      <div class="container">
+        <div class="row">
+          <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+            <h2>Contact Me</h2>
+            <p>Send me your messages, ideas or your regards!</p>
+          </div>
+        </div>
+        <div class="contact-form wow fadeIn" data-wow-duration="500ms" data-wow-delay="600ms">
+          <div class="row">
+            <div class="col-sm-6">
+              <form id="main-contact-form" name="contact-form" method="post" action="#">
+                <div class="row  wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <input type="text" name="name" class="form-control" placeholder="Name" required="required">
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <input type="email" name="email" class="form-control" placeholder="Email Address" required="required">
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="text" name="subject" class="form-control" placeholder="Subject" required="required">
+                </div>
+                <div class="form-group">
+                  <textarea name="message" id="message" class="form-control" rows="4" placeholder="Enter your message" required="required"></textarea>
+                </div>
+                <div class="form-group">
+                  <button type="submit" class="btn-submit">Send Now</button>
+                </div>
+              </form>
+            </div>
+            <div class="col-sm-6">
+              <div class="contact-info wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+                <ul class="address">
+                  <li><i class="fa fa-phone"></i> <span> Phone:</span> +1(434)327-0598  </li>
+                  <li><i class="fa fa-envelope"></i> <span> Email:</span><a href="mailto:sg2nq@virginia.edu"> sg2nq@virginia.edu</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!--/#contact-->
+  <footer id="footer">
+    <div class="footer-top wow fadeInUp" data-wow-duration="600ms" data-wow-delay="300ms">
+      <div class="container text-center">
+        <div class="footer-logo">
+          <a href="index.html"><img class="img-responsive" src="images/footerIcon.png" alt="" height="82" width="82"></a>
+        </div>
+        <div class="social-icons">
+          <ul>
+            <li><a class="envelope" href="mailto:sg2nq@virginia.edu"><i class="fa fa-envelope"></i></a></li>
+            <li><a class="facebook" href="https://www.facebook.com/s1ddhant" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a class="linkedin" href="https://www.linkedin.com/in/siddhant-goel-sg2nq/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            <li><a class="github" href="https://www.github.com/sg2nq/" target="_blank"><i class="fa fa-github"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <p>Made by Siddhant Goel</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+  <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+  <script type="text/javascript" src="js/wow.min.js"></script>
+  <script type="text/javascript" src="js/mousescroll.js"></script>
+  <script type="text/javascript" src="js/smoothscroll.js"></script>
+  <script type="text/javascript" src="js/jquery.countTo.js"></script>
+  <script type="text/javascript" src="js/lightbox.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
